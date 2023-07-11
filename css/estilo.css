@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(213, 189, 193);
+    width: 100%;
+    padding: 6px 30px;
+    position: sticky;
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+
+footer {
+    background-color: rgb(213, 189, 193);
+    width: 100%;
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul li {
+    text-decoration: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+
+}
+
+footer svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(159, 72, 239);
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(245, 68, 162);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: deeppink;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+
+/*selectores de clase*/
+.text-dark {
+    color: black;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+/*box model -- widht (ancho) height (alto) margin (margen) padding (relleno) border */
+.box-top {
+    padding: 4px 0;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+
+
+/*PRODUCTOS DESTACADOS DE LA HOME*/
+.products-home {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products-home figure {
+    width: 20%;
+    border: solid 1px rgb(180, 61, 124);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-home figure figcaption {
+    color: rgb(180, 61, 124);
+    font-size: 1.4em;
+}
+
+.products-home figure p {
+    text-align: center;
+}
+
+.products-home figure button {
+    border: none;
+    background-color: rgb(213, 189, 193);
+    padding: 6px;
+    color: black;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.products-home figure button:hover {
+    cursor: pointer;
+    background-color: rgb(159, 72, 239);
+}
